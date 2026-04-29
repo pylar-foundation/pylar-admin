@@ -1,0 +1,27 @@
+{
+  "name": "pylar-admin",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@geoman-io/leaflet-geoman-free": "^2.19.3",
+    "@types/leaflet": "^1.9.21",
+    "highlight.js": "^11.11.1",
+    "leaflet": "^1.9.4",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.0",
+    "vue-i18n": "^9.14.5",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.1.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
